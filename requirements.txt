@@ -1,0 +1,46 @@
+# ═══════════════════════════════════════════════════════════════════════
+#                    GADGET PREMIUM HOST - Requirements
+#                         Version 3.0.0 CYBER
+# ═══════════════════════════════════════════════════════════════════════
+
+# Core Framework
+aiogram>=3.4.0                    # Telegram Bot Framework (async)
+aiohttp>=3.9.0                    # Async HTTP client
+
+# System & Monitoring
+psutil>=5.9.0                     # System monitoring (CPU, RAM, Disk)
+
+# Git Support
+gitpython>=3.1.0                  # Git repository operations
+
+# Database
+aiosqlite>=0.19.0                 # Async SQLite support
+
+# Utilities
+python-dotenv>=1.0.0              # Environment variables loader
+pytz>=2024.1                      # Timezone support
+
+# Optional Enhancements
+uvloop>=0.19.0                    # Fast event loop (Linux/macOS)
+colorlog>=6.8.0                   # Colored logging
+rich>=13.7.0                      # Rich text formatting
+
+# ═══════════════════════════════════════════════════════════════════════
+# Installation Instructions:
+# ═══════════════════════════════════════════════════════════════════════
+#
+# 1. Create virtual environment:
+#    python3 -m venv venv
+#    source venv/bin/activate  # Linux/macOS
+#    venv\Scripts\activate     # Windows
+#
+# 2. Install dependencies:
+#    pip install -r requirements.txt
+#
+# 3. Configure bot:
+#    Edit config.py and set your BOT_TOKEN
+#
+# 4. Run bot:
+#    python main.py
+#
+# ═══════════════════════════════════════════════════════════════════════
